@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EventFinder" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#BAD837</item>
+        <item name="colorPrimaryVariant">#BAD837</item>
+        <item name="android:statusBarColor">#BAD837</item>
+    </style>
+
+    <style name="Theme.EventFinder" parent="Base.Theme.EventFinder" />
+</resources>

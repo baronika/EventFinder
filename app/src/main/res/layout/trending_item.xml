@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="250dp"
+    android:layout_marginEnd="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_below="@id/text_view_trending">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image_view_trend"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/_480536"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/text_view_trend_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metaverse by Meta\nDate:12/02/25 Time:10:00 IST"
+            android:textColor="@color/white"
+            android:padding="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

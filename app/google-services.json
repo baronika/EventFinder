@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "770442777896",
+    "project_id": "eventfinder-db",
+    "storage_bucket": "eventfinder-db.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770442777896:android:741a43f10bfd2d6cb3ec1d",
+        "android_client_info": {
+          "package_name": "com.baronika2004.eventfinder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_pssFNSCoGFneEp8xeOmxa-Av-Y1FpOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

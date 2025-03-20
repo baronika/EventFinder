@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LaunchActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="280dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-130dp"
+        android:rotation="-69"
+        android:scaleType="centerInside"
+        android:src="@drawable/screenshot_2025_01_26_at_10_45_58_am_removebg_preview" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_above="@+id/text_view_eventfinder"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/navigation_animate" />
+
+    <TextView
+        android:id="@+id/text_view_eventfinder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E V E N T F I N D E R"
+        android:layout_centerInParent="true"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-black"/>
+
+    <TextView
+        android:id="@+id/quote_launch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/text_view_eventfinder"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="55dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Discover. Connect. Experience"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autoSizeTextType="uniform"
+        android:layout_below="@+id/quote_launch1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginEnd="97dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Your next great event is just a tap away!"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_start"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/text_view_eventfinder"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="55dp"
+        android:backgroundTint="#231525"
+        android:elevation="100dp"
+        android:text="GET STARTED"
+        android:textColor="@color/white"
+        app:cornerRadius="40dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_login"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/button_start"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:elevation="100dp"
+        android:text="LOGIN"
+        android:textColor="@color/black"
+        app:backgroundTint="#BAD837"
+        app:cornerRadius="40dp" />
+
+</RelativeLayout>
