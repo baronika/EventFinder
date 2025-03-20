@@ -1,2 +1,1 @@
 # EventFinder
-EventFinder is an Android app that helps users discover events based on their interests and location. It enhances community engagement by recommending events across various categories like comedy, music, and cultural gatherings. With real-time interactive maps, users can easily locate and navigate to events. The app’s seamless interface ensures a smooth experience, while robust database integration enables user profiling, event listings, and push notifications. Users stay informed about upcoming events, making event discovery effortless and engaging.
